@@ -1,0 +1,283 @@
+
+@import url("sidebar.css"); 
+
+
+@import url("table.css"); 
+@import url("general-fonts.css"); 
+/* body{
+    overflow-x: hidden
+} */
+section{
+    display: inline-block;
+}
+.select-box img{
+    cursor: pointer;
+}
+.stutas{
+    display: inline-block;
+    background-color: #4CAF50;
+    padding: 4px 14px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.table-contaner h4 {
+    border-bottom: 1px solid #F6F6F6;
+    line-height: 2;
+    margin-bottom: 12px;
+}
+
+a:not([href]):not([tabindex]),a:not([href]):not([tabindex]):hover{
+    color: #fff;
+}
+.select-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.select-box p{
+    margin-left: 10px;
+    margin-top: 4px;
+
+}
+input,select,.form-control{
+    background-color: #F6F6F6;
+    border:2px solid #F6F6F6;
+    cursor: pointer;
+
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    top: 12px;
+    left: 23px;
+    pointer-events: none;
+    color: #aaa;
+}
+select{
+   
+    padding: 0px 10px;
+    height: 37px;
+    display: flex;
+    justify-content: space-evenly;
+}
+input{
+    padding: 6px;
+    width: 100%;
+}
+tbody{
+    border-bottom: 1px solid #F6F6F6;
+
+}
+.pagination{
+margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.page-item:first-child .page-link{
+    background-color: #DF2B5C;
+    color:#fff
+}
+
+
+
+
+.page-link {
+    position: relative;
+    display: block;
+    width: 37px;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: #007bff;
+    border: none;
+    background-color: unset;
+
+}
+.table-content h6{
+    text-align: right;
+}
+span.page-link{
+    top:5px;
+    color:#333
+}
+span.page-link:hover{
+    color:#DF2B5C
+}
+.page-link:hover {
+    z-index: 2;
+    color: #0056b3;
+    text-decoration: none;
+    background-color: unset;
+    border-color: none;
+}
+.all-products-layout{
+    background-color: #fff;
+    padding: 20px;
+}
+/* .all-products-layout h6{
+    border-bottom: 2px solid #E2E2E280;
+} */
+@media (max-width: 1200px) {
+
+    .table-contaner {
+      /* width: 80%; */
+    }
+
+    .page-link {
+        padding: 0;
+        width: 50%;
+        /* width: unset; */
+    }
+    .table-content{
+        background: unset;
+    }
+    .col-lg-1
+    {
+        width: unset;
+    }
+  }
+  .all-products-layout .col-lg-2{
+    margin-left: 10px;
+    margin-right: 23px;
+}
+.has-search .form-control-feedback {
+    top: 22px;
+ 
+}
+.product-item
+{
+    text-align: center;
+}
+.product-item p{
+    margin: 5px 0;
+}
+input,select,.form-control{
+    margin: 10px 0;
+}
+.table-content h6{
+    text-align: center;
+}
+
+.product-item img{
+    width: 100%;
+    height: 102px;
+    border-radius: 8px;
+
+}
+.notifiction {
+    background-color: #fff;
+    box-shadow: 1px 3px 10px #8181811a;
+    margin-bottom: 10px;
+    height: 70px;
+}
+.notification-container{
+display: flex;
+justify-content: space-between;
+padding: 0px 4px;
+
+}
+.notifcation-item{
+    display: flex;
+    text-align: right;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+  
+.notifcation-item img
+{
+margin-left: 10px;
+position: relative;
+    bottom: 10px;
+    left: 10px;
+    width: 43px;
+
+}
+
+.notifcation-item h5
+{
+    font-weight: 600;
+
+}
+.notifcation-data {
+
+display: flex;
+}
+.notifcation-data p:nth-of-type(1)
+{
+    font-size: 2.1em;
+   color: #F6F6F6;
+    margin-left: 15px;
+    position: relative;
+}
+.notifcation-data p:nth-of-type(2)
+{
+    position: relative;
+    top: 27%;
+    color: #80808066;
+
+}
+.color-gray{
+    color: lightgray;
+
+}
+.notifcation-item h6
+{
+    font-size: 12px;
+
+}
+.notifcation-data img
+{
+    height: 23px;
+    width: 26px;
+    position: relative;
+    top: 6px;
+    right: 15px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.notifcation-data a span
+{
+    position: relative;
+    bottom: 2px;
+    color: rgb(204, 202, 202);
+    font-size: 12px;
+    font-weight: bold;}
+
+.charts {
+    text-align: right;
+    margin-bottom: 20px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .notifiction{
+        height: unset;
+
+    }
+    .notifcation-data p:nth-of-type(2){
+        top:2px;
+        text-align: right;
+
+    }
+}
+.pagination-insmall-screan{
+    display: flex;
+    background: #fff;
+    justify-content: space-between;
+}
+#pagination-insmall-screan{
+    display: flex;
+}
+.table-item {
+    overflow-x: auto;
+    white-space: nowrap;
+    /* width: 80%; */
+  }
+  .table-filter-header{
+      background: #fff;
+      padding: 10px 16px;
+      position: relative;
+      top: 14px;
+  }

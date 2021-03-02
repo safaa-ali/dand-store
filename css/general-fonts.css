@@ -1,0 +1,36 @@
+
+@font-face {
+    font-family: "heading";
+    src: url("./../fonts/ArbFonts.com-\(13\)/ArbFONTS-URW-DIN-Arabic.ttf") ;
+   
+  }
+  
+  @font-face {
+   
+    font-family: "text";
+    src: url("./../fonts/ArbFonts.com-\(13\)/ArbFONTS-URW-DIN-Arabic.ttf") ;
+   
+  }
+  @font-face {
+     font-family: "heading-bold"; 
+     src: url("./../fonts/ArbFonts.com-\(13\)/ArbFONTS-URW-DIN-Arabic-Bold.ttf") ; 
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6
+  
+   {
+  font-family: heading-bold;
+  font-weight: bold;
+  }
+  p ,a,span,th,td ,input,select,label,button,textarea{
+    font-family: text;
+  
+  }
+  .charts {
+    padding-top: 0;
+  
+}

@@ -1,0 +1,123 @@
+
+
+
+@import url("sidebar.css"); /* Using a url */
+@import url("table.css"); 
+@import url("general-fonts.css"); 
+
+
+
+
+.product-detal{
+    background-color: white;
+    padding: 20px;
+
+
+} 
+.btnSection .btn
+{
+    width: 50%;
+}
+
+.productImg{
+    margin-bottom: 20px;
+} 
+.btnSection{
+    display: flex;
+    justify-content: center;
+}
+.btnSection .btnEdit{
+height: 50px;
+background-color: #E70569;
+color: white;
+margin-bottom: 10px;
+margin-left: 20px;
+} 
+
+.productDescription{
+    margin-top: 20px;
+    border-bottom: 2px solid #DDDDDD;
+}
+.productDescription p{
+    color: #8D8D8D; 
+    font-size: 15px;
+} 
+.spanStyle{
+    font-size: 13px;
+    font-weight: bold;
+} 
+.spanSeparator{
+    margin-right: 10px; 
+    margin-left: 10px;
+    font-size: 15px;
+    
+}
+ @media  screen and (min-width: 991px){
+    .barCode{
+        position: absolute;
+        left: 0;
+    }
+   
+} 
+.product-img
+{
+    border-radius: 12px;
+
+}
+.charts {
+    text-align: right;
+    margin-bottom: 40px;
+    /* padding-right: 30px; */
+    margin-top: 50px;
+}
+ @media screen and (max-width:660px) {
+    h3.productImg{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    .btnSection{
+        display: block;
+        text-align: right;
+        justify-content: start;
+    }
+    .product-detal {
+    padding: 20px 5px;
+    }
+    .col-sm-12,.col-xs-12{
+        padding: 0;
+    }
+}
+
+.headr-product-detail{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+
+}
+
+
+
+.btnSection .btnDelete {
+    height: 50px;
+    background-color: #F7F7F7;
+    color: #434343;
+    border: 2px solid #D8D7D8;
+    margin-bottom: 10px;
+}
+@media screen and (max-width:970px) {
+    .btnSection .btn
+{
+    width: 44%;
+}
+.headr-product-detail{
+    display: block;
+    width: 100%;
+
+}
+}
+a,a:hover{
+    color: unset;
+    text-decoration: none;
+}

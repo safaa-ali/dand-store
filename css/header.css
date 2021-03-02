@@ -1,0 +1,180 @@
+
+@import url("passRecover.css"); 
+@import url("general-fonts.css"); 
+
+
+.padd {
+  padding: 60px;
+}
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  cursor: pointer;
+}
+h1,h2,h3,h4,h5,h6{
+  margin-bottom: 20px;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.navbar{
+  background-color: #fff !important;
+  box-shadow: 1px 3px 10px #8181811A;
+
+}
+.activeNavbar {
+  background-color: white !important;
+  box-shadow: 1px 3px 10px #8181811A;
+  padding: 0.5rem 3.5rem;
+  transition: .4s ease-in-out;
+  padding: 0.5rem 11rem;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #333;
+  transition: 0.2s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  font-weight: bold;
+  color: rgb(102, 91, 91);
+}
+
+.navbar-brand img {
+  width: 30px;
+}
+.dropdown {
+  position: relative;
+  left: 31px;
+  top: 5px;
+}
+.login-btn {
+  border: 2px solid #fff;
+  border-radius: 8px;
+  text-align: center;
+  width: 120px;
+  line-height: 2;
+  background-color: #df2b5c;
+  transition: .3s ;
+}
+.login-btn:hover{
+  filter: brightness(0.9);
+}
+a.register {
+  color: #fff;
+}
+.lang,
+.lang:hover {
+  color: #fff;
+}
+.nav-item {
+  margin: 0 18px;
+  color:black
+}
+.active-link {
+  border-bottom: 2px solid #fff;
+  font-weight: bold;
+}
+
+.navbar-brand
+{
+background: transparent linear-gradient(
+135deg
+, #EC053E 0%, #E41D51 13%, #CF5B83 42%, #AFBDD3 83%, #A2E8F6 100%) 0% 0% no-repeat padding-box;
+  padding: 12px;
+  border-radius: 15px;
+}
+footer {
+  background-color: #fff;
+  padding: 20px;
+  width: 100%;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+}
+.footer-liks {
+  width: 100%;
+  display: flex;
+}
+.footer-liks ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+.footer-liks ul li a {
+  color: #333;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+.footer-liks ul li a:hover {
+  color: blue;
+}
+
+.connection-icon a {
+  margin: 10px 6px;
+  padding: 10px;
+  transition: 0.4s ease-in-out;
+  border-radius: 50%;
+  border: 2px solid #f6f6f6;
+}
+
+.connection-icon a:hover {
+  background-color: #df2b5c;
+  border-radius: 50%;
+  color: #fff;
+  border: none;
+}
+.connection-icon a:hover i {
+  color: #fff;
+}
+
+
+  @media only screen and (max-width: 1200px) {
+    .navbar {
+      padding: 0.5rem 1rem;
+    }
+    .links {
+      width: 100%;
+    }
+   
+    .footer-liks ul {
+      width: 100%;
+    }
+    .active-link {
+      border-bottom: none;
+      font-weight: bold;
+    }
+  
+    .connection-icon {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 60%;
+      margin-right: 81px;
+    }
+    .connection-icon a i {
+      margin: 0;
+    }
+  
+    .nav-item {
+      margin: 0 18px;
+      display: flex;
+      justify-content: right;
+    }
+    .dropdown {
+      position: relative;
+      right: 80px;
+      top: -19px;
+      left: 0;
+    }
+  }
+  
+ 

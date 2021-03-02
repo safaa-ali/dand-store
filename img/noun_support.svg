@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96.883" height="90.317" viewBox="0 0 96.883 90.317">
+  <g id="noun_support" transform="translate(-1159 -1050)">
+    <rect id="Rectangle_1906" data-name="Rectangle 1906" width="82.317" height="82.317" rx="41" transform="translate(1159 1058)" fill="#df2b5c"/>
+    <rect id="Rectangle_4085" data-name="Rectangle 4085" width="82.317" height="82.317" rx="41" transform="translate(1173.564 1050)" fill="#df2b5c" opacity="0.16"/>
+    <g id="noun_support-2" data-name="noun_support" transform="translate(1175.064 1073.854)">
+      <path id="Path_5336" data-name="Path 5336" d="M47.688,29.157a8.015,8.015,0,0,0-5.232-7.516V20.262a17.362,17.362,0,1,0-34.724,0v1.379A8.028,8.028,0,0,0,10.539,37.2h2.9a1.38,1.38,0,0,0,1.379-1.379V22.5a1.38,1.38,0,0,0-1.379-1.379H12.108v-.856a12.986,12.986,0,1,1,25.971,0v.856H36.748A1.38,1.38,0,0,0,35.369,22.5V35.816A1.38,1.38,0,0,0,36.748,37.2h.618A9.538,9.538,0,0,1,29.328,42.9a2.045,2.045,0,0,0-2-1.617H22.811a2.03,2.03,0,0,0-2.045,2.045v2.331a2.03,2.03,0,0,0,2.045,2.045H27.33a2,2,0,0,0,2-1.712A12.621,12.621,0,0,0,40.7,37.1,8.05,8.05,0,0,0,47.688,29.157Z" fill="#fff"/>
+    </g>
+  </g>
+</svg>

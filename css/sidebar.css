@@ -1,0 +1,304 @@
+@import url("general-fonts.css");
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+ 
+  body {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: normal;
+    background: #fafafa;
+    color: gray; }
+  
+  a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    color: #3e64ff; }
+    a:hover, a:focus {
+      text-decoration: none !important;
+      outline: none !important;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+  
+  button {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    button:hover, button:focus {
+      text-decoration: none !important;
+      outline: none !important;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important; }
+  
+  h1, h2, h3, h4, h5,
+  .h1, .h2, .h3, .h4, .h5 {
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "Poppins", Arial, sans-serif;
+    color: #000; }
+  
+  .ftco-section {
+    padding: 7em 0; }
+  
+  .ftco-no-pt {
+    padding-top: 0; }
+  
+  .ftco-no-pb {
+    padding-bottom: 0; }
+  
+  .heading-section {
+    font-size: 28px;
+    color: #000; }
+    .heading-section small {
+      font-size: 18px; }
+  
+  .img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+  
+  .navbar {
+    padding: 15px 10px;
+    background: #fff;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); }
+  
+  .navbar-btn {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none !important;
+    border: none; }
+  
+  .line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #ddd;
+    margin: 40px 0; }
+  
+  .wrapper {
+    width: 100%; 
+    background-color: #F6F6F6;
+}
+  
+  #sidebar {
+    min-width: 270px;
+    max-width: 270px;
+    background: #fff;
+    color: #333;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    text-align: right;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0 ,.1);
+    z-index: 99999999;
+position: fixed;
+height: 100%;
+}
+
+    #sidebar.active {
+      min-width: 80px;
+      max-width: 80px;
+      text-align: center; 
+    }
+      #sidebar.active ul.components li {
+        font-size: 14px;
+       }
+        #sidebar.active ul.components li a {
+            padding: 10px 11px;
+        }
+          #sidebar.active ul.components li a span {
+            margin-right: 0;
+            display: block;
+            font-size: 24px; }
+            #sidebar.active ul.components li a .fa.fa-chevron-left{
+              display: none;
+           
+            }
+            #sidebar.active .sidebar-header {
+            height: 120px;           
+            }
+            #sidebar.active .sidebar-header img {
+              width: 30px;
+              }
+    #sidebar ul.components {
+      padding: 0;
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s; }
+      @media (prefers-reduced-motion: reduce) {
+        #sidebar ul.components {
+          -webkit-transition: none;
+          -o-transition: none;
+          transition: none; } 
+        }
+    #sidebar ul li {
+      font-size: 14px; }
+      #sidebar ul li > ul {
+        margin-left: 10px; }
+        #sidebar ul li > ul li {
+          font-size: 14px; }
+      #sidebar ul li a {
+        padding: 10px 30px;
+        display: block;
+        color: #333;
+     }
+     
+        #sidebar ul li a img {
+          margin-right: 15px; 
+          margin-left: 11px;
+        }
+          @media (max-width: 991.98px) {
+            #sidebar ul li a span {
+              display: block; } }
+        #sidebar ul li a:hover {
+          color: #333; }
+      #sidebar ul li.active > p {
+        color: #fff;
+        background: #df2b5c;
+        border-radius: 10px;
+        width: 90%;
+        margin-right: 5%;
+     }
+     #sidebar ul li.active > p a{
+        color: #fff;
+        font-size: 12px;
+      
+     }
+   
+   
+  
+  a[data-toggle="collapse"] {
+    position: relative; }
+  
+ 
+  
+  
+  
+  #content {
+    width: 100%;
+    padding: 0;
+    min-height: 100vh;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; 
+}
+  
+
+  .fa.fa-chevron-left
+{
+    margin-top: 5px;
+}
+.activateLink{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sidebar.active  .lits-link-item{
+    position: relative;
+    left:30px
+}
+img{
+    cursor: pointer;
+}
+
+#sidebar .sidebar-header {
+    width: 100%;
+    height: 200px;
+    background: #df2b5c 0% 0% no-repeat padding-box;
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 75%,
+      64% 88%,
+      53% 89%,
+      38% 85%,
+      0% 75%
+    );
+    justify-content: center;
+    display: flex;
+  }
+  
+  #sidebar .sidebar-header img {
+    width: 70px;
+    height: auto;
+    position: relative;
+    bottom: 8%;
+    left: 3%;
+  }
+
+
+  .custom-dropdown-list
+  {
+      
+    position: relative;
+    left: 20px;
+
+  }
+ 
+  .sidebarCollapseBtn{
+      position: relative;
+      right: 30%;
+  }
+
+.collapse-links li:hover{
+  transition: .4s ease-in-out;
+  transform: translate(3px,-5px);
+}
+#sidebar .collapse-links li a:hover{
+  color:#df2b5c;
+  font-weight: bold;
+  font-family: text;
+  font-size: 12px;
+}
+
+.table-contaner{
+  margin-right: 20%;
+}
+
+@media (max-width: 991.98px) {
+  #sidebarCollapse span {
+    display: none;
+   }
+    .lits-link-item{
+      position: relative;
+      left:50px
+  }
+  .activeInSmallScrean
+  {
+    margin-right: -85px !important;
+  }
+  #sidebar {
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;
+}
+  
+.fa.fa-chevron-left{
+  display: none !important;
+}
+#sidebar .sidebar-header img{
+  width: 30px !important;
+}
+#sidebar .sidebar-header{
+  height: 120px !important;
+}
+.activateLink a img{
+  margin-right: -5px !important;
+}
+.activateLink a {
+  margin-right: -21px !important;
+}
+
+  }
+  .sidebarActive{
+
+  }

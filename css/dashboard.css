@@ -1,0 +1,92 @@
+
+
+@import url("table.css"); 
+@import url("sidebar.css"); /* Using a url */
+
+@import url("general-fonts.css"); 
+
+.garph-content-cards {
+  /* width: 60%; */
+}
+.charts-card {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  height: 133px;
+  background: transparent linear-gradient(115deg, #e7154b 0%, #b7a6c0 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 0px 0px 13px #f2f2f2;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.charts-card img {
+  width: 80px;
+
+  position: relative;
+  left: 6px;
+}
+.charts {
+  text-align: right;
+  padding-right: 30px;
+}
+.card-data {
+  margin-top: 40px;
+  color: #fff;
+}
+.card-data h5 {
+  text-align: right;
+  position: relative;
+  right: 11px;
+  color:#fff
+}
+.card-data h6 {
+  position: relative;
+  right: 10px;
+}
+
+
+canvas {
+  background-color: white;
+  padding-top: 60px;
+  margin-top: 70px;
+  /* z-index: 22222222222222; */
+}
+@media (max-width: 768px) {
+ 
+  .charts {
+    text-align: right;
+    padding-right: 30px;
+    margin-right: 25%;
+    margin-top: 50px;
+}
+
+  .caption {
+      margin-right: unset;
+  }
+}
+.table-dashboard {
+  width: 100%;
+  margin-right: 0;
+}
+.table-content{
+  overflow-x: auto;
+  white-space: nowrap;
+}
+/* .table-dashboard {
+  display: block;
+
+} */
+.table-dashboard{
+  margin-right: 0%;
+}
+.table-contaner{
+  margin-right: 20%;
+}
+#content {
+  width: 85%;
+  padding: 0;
+  min-height: 100vh;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; 
+}

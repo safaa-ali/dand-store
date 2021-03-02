@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>register </title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Rover Template" />
+    <meta name="keywords" content="Rover, unica, creative, html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+
+
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    /> 
+
+<style>
+  #map {
+    width: 100%;
+    height: 480px;
+}
+</style>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/perfect-scrollbar.css">
+
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/forms.css">
+  </head>
+  <body dir="rtl" >
+  <!-- ---------------------------------------------------------START NAV -------------------------------------- -->
+
+
+  <section id='navbar'  class="container-fluid fixed-navbar">
+    <nav 
+      id="nav"
+      class="mynav navbar navbar-expand-lg navbar-light fixed-top "
+    >
+    <div class="col-2">
+      <a class="navbar-brand mr-auto "  id="navbar-brand"
+      ><img src="./img/Group 17873.svg"
+    /></a>
+    </div>
+     
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto ml-auto">
+          <li class="nav-item" >
+            <a class="nav-link active-link" href="index.html">الرئيسية</a>
+            <span class="border-link"></span>
+          </li>
+          <li class="nav-item" >
+            <a class="nav-link" href="aboutUs-component.html">من نحن</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" >مميزاتنا</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="dashboard-component.html">صفحات التطبيق</a>
+          </li>
+        </ul>
+         <ul class="navbar-nav mr-auto ml-auto">
+          <li class="nav-item login-btn">
+            <a class="register" href="regiser.html">تسجيل المتاجر</a>
+          </li>
+          <li class="nav-item offset-1">
+            <a class="lang" 
+              ><img src="./img/saudi-arabia (1).svg" alt="" />  عربي
+             
+              </a
+            >
+            <li class="nav-item dropdown">
+              <a class="dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              </a>
+              <div class="dropdown-menu text-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" >عربي</a>
+                <a class="dropdown-item" >English</a>
+              </div>
+            </li>
+          </li>
+        </ul> 
+      </div>
+
+    </nav>
+  </section>     
+  <!-- ---------------------------------------------------------END NAV -------------------------------------- -->
+  <div class="container generalForm">
+    <div class="text-center">
+        <div> <h2>إنشاء حساب جديد</h2></div>
+        <div>   <a href=""style="color: #6B6B6B;">الرئيسية</a> / <a href=""  style="color: #DF2B5C;">إنشاء حساب</a> </div>
+    </div> 
+    <div class="col-lg-6 Pannel curvedForm" >       
+            <div  dir="rtl" >
+                <div class="text-center formHeader" >
+                    <h3>حساب جديد</h3>
+                    <div><span>قم بإنشاء حساب جديد من اجل إضافة امنتجاتك بكل سهولة</span></div>
+                </div> 
+    
+                <div  id="StoreLogo" class="text-center">
+                    <img src="./img/icons8-name-skin-type-7-48.png" alt="" >
+                    <div><span>شعار المتجر</span></div>
+                </div>
+                <form >
+    
+            <div class="form-group">
+                        <label class="row customeLabel">  اسم المتجر</label>
+                        <div class="row">
+                            <input  type="text" class="form-control customInput"   placeholder="الرجاء ادخال اسم المتجر">
+                        </div>
+                </div>
+    
+                <div class="form-group">
+                    <label class="row customeLabel">  السجل التجارى</label>
+                    <div class="row">
+                        <input  type="text" class="form-control customInput"   placeholder="الرجاء ادخال السجل التجارى">
+                    </div>
+            </div>
+    
+            <div class="form-group">
+                <label class="row customeLabel">  رقم الجوال</label>
+                <div class="row">
+                    <input  type="tel" class="form-control customInput"   placeholder="الرجاء ادخال رقم الجوال">
+                </div>
+            </div>
+    
+    
+                   <div class="form-group">
+                    <label class="row customeLabel">  البريد الالكترونى</label>
+                    <div class="row">
+                        <input  type="email" class="form-control customInput"   placeholder="الرجاء ادخال البريد الالكترونى">
+                    </div> 
+                    </div>
+                    <div class="form-group">
+                      <label class="row customeLabel" > المدينة</label>
+                      <div class="row">
+                     <select name="" id="" class="customInput col-lg-12">
+                         <option value=""></option>
+                         <option value="">Cairo</option>
+                         <option value="">Alex</option>
+                     </select>
+                      </div> 
+                    </div> 
+    
+                    <div class="form-group">
+                        <label class="row customeLabel">  الموقع</label>
+                        <div class="row" style="position: relative;">
+                            <button  type="button" class="btn" data-toggle="modal" data-target="#exampleModal"  > 
+                              الرجاء ادخال موقع المتجر
+                              </button>
+                            <img class="locationImg" src="./img/pin (1).svg" alt="">
+                        </div> 
+                        </div> 
+    
+                      
+                          
+                                  <div class="form-group meny-items-input">
+                                    <label class="" for="">صورة أخرى</label>
+                                    <label class="row customInput" for="custom-file-input">
+                                      <span> الرجاء ارفاق صورة أخرى    </span>
+                                      <img src="./img/upload.svg" class="upload-img" alt="" />
+                                    </label>
+                                    <input id="custom-file-input" type="file" />
+                                  </div>
+                            <div class="form-group">
+                                <label class="row customeLabel">  كلمة المرور</label>
+                                <div class="row" style="position: relative;">
+                                    <input  type="password" class="customInput form-control" placeholder="الرجاء ادخال كلمة المرور">
+                                    <img class="passwordImg" src="./img/view.svg" alt="">
+                                </div> 
+                                </div>
+    
+                    <div class="row formBtn">
+                        <button type="submit" class="custom-btn btn  col-xs-12 col-md-12 col-sm-12 col-lg-12">إنشاء حساب</button>
+                    </div> 
+                    <div class="text-center" id="dontHaveAcount">
+                        <span style="font-family: text;">لديك حساب بالفعل ؟  </span> <a href="login.html">إضغط هنا</a>
+                    </div>
+                  </form>   
+            </div>
+      
+
+    </div>
+
+</div>         <!-- ---------------------------------------------------------START FOOTER -------------------------------------- -->
+          <footer>
+            <div class="row "  >
+                <div class="col-lg-6 col-md-12" >
+                  <div class="footer-liks ">
+                    <ul>
+                      <li><a href="">الرئيسية</a></li>
+                      <li><a href="">من نحن</a></li>
+                      <li><a href="">مميزاتنا</a></li>
+                      <li><a href="">صفحات التطبيق</a></li>
+     
+                    </ul>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12" >
+               <div class="connection-icon text-left" >
+                   <a><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                   <a><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                   <a><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                   <a><i class="fa fa-facebook" aria-hidden="true"></i></a>
+     
+             </div>
+              </div>
+            
+            </div>
+          </footer>
+             <!-- ---------------------------------------------------------END FOOTER -------------------------------------- -->
+   
+
+
+
+
+
+             <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <div class="modal-body">
+        <div id="map"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">حفظ الخريطة</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key={ENTER YOUR KEY}"></script>
+    <script src="https://unpkg.com/location-picker/dist/location-picker.min.js"></script> 
+
+    <script>  
+    var locationPicker = new locationPicker('map', {
+    setCurrentPosition: true, // You can omit this, defaults to true
+      }, {
+          zoom: 15 // You can set any google map options here, zoom defaults to 15
+      });
+    </script>
+  </body>
+</html>

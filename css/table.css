@@ -1,0 +1,58 @@
+
+
+@import url("general-fonts.css"); 
+
+
+/* charts */
+.charts {
+    text-align: right;
+
+  }
+ 
+  .caption p {
+    color: #9f9f9f;
+  }
+  .padd {
+    padding-top: 50px;
+  }
+
+  .table-contaner h4 {
+    text-align: right;
+    font-weight: bold;
+  }
+  .table {
+    margin-top: 14px;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .table thead {
+    background-color: #e7154b;
+    color: #fff;
+  }
+  .table-content{
+    background-color: #fff;
+    padding: 20px;
+  }
+  td {
+    color: #9f9f9f;
+  }
+  
+ 
+
+
+.nav-item img{
+  cursor: pointer;
+}
+
+.dropdown-menu{
+  min-width: 5rem;
+}
+.dropdown-item.active, .dropdown-item:active{
+  background-color: #F6F6F6;
+}
+.dropdown-menu
+{
+  background: #F6F6F6;
+}
+

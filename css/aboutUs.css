@@ -1,0 +1,13 @@
+
+
+@import url("forms.css"); 
+
+.ourLogo{
+    display: flex;
+    justify-content: center;
+}
+.aboutUsContent{
+    margin-top: 30px;
+    color: #8A8A8A;
+    background-image: url("../img/470768-PG13MT-641\ copy.png");
+}
