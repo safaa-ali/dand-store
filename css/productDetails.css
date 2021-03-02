@@ -109,7 +109,7 @@ margin-left: 20px;
 @media screen and (max-width:970px) {
     .btnSection .btn
 {
-    width: 44%;
+    width: 100%;
 }
 .headr-product-detail{
     display: block;
