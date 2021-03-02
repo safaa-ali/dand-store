@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
-        <link rel="stylesheet" href="css/forms.css" />
+        <link rel="stylesheet" href="css/products.css" />
 
   </head>
   <body dir="rtl">
@@ -331,7 +331,7 @@
                           </div>
                         </label>
         
-                        <div id="imgUploaded" class="row mr-2">
+                        <!-- <div id="imgUploaded" class="row mr-2">
                           <div class="col-md-2">
                             <img src="./img/cancel.svg" id="close" alt="" />
                             <img src="./img/product-img-3.png" alt="" />
@@ -344,7 +344,7 @@
                             <img src="./img/cancel.svg" id="close" alt="" />
                             <img src="./img/product-img-2.png" alt="" />
                           </div>
-                        </div>
+                        </div> -->
                       </div>
                     </div>
                   </div>
@@ -365,5 +365,56 @@
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
     <script src="js/sidebar.js"></script>
+    <script>
+      const dt = [];
+      function removeImge(x) {
+        // get index of the item
+        let index = $(x).parent().attr("class");
+        //remove element from the dome
+        let parentDiv = $(x).parent().remove();
+        // remove file form input file
+        dt.splice(index, 1);
+        let inputFiles = $("#custom-file-input2");
+        inputFiles.files = dt;
+        console.log(inputFiles);
+      }
+      $("#custom-file-input2").change(function (e) {
+        var input = this;
+        console.log(input.files);
+        var url = $(this).val();
+        var ext = url.substring(url.lastIndexOf(".") + 1).toLowerCase();
+        if (
+          input.files &&
+          input.files[0] &&
+          (ext == "gif" || ext == "png" || ext == "jpeg" || ext == "jpg")
+        ) {
+          for (let i = 0; i < input.files.length; i++) {
+            var tmppath = URL.createObjectURL(e.target.files[i]);
+            var myImage = $("<img/>");
+            var myDiv = $(`<div class="${i} col-md-2"> </div>`);
+            myImage.attr("width", 90);
+            myImage.attr("height", 90);
+            myImage.attr("class", "groupMediaPhoto");
+            myImage.attr("src", tmppath);
+            myDiv.append(
+              `<img src="./img/cancel.svg" id='close' onClick=removeImge(this)>`
+            );
+            myDiv.append(myImage);
+            $("#imgUploaded").append(myDiv);
+            dt.push(input.files[i]);
+          }
+          console.log(dt);
+        }
+      });
+    </script>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
